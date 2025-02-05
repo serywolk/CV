@@ -1,11 +1,151 @@
 <!DOCTYPE html>
 <html lang="ru">
   <head>
+    <title>Резюме</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="author" content="Chagina EA" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Exo+2:wght@300&family=Ubuntu&display=swap"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="style.css" />
   </head>
+
   <body>
-    <h1>Hello World!</h1>
+    <div class="container">
+      <!-- ЛЕВАЯ СЕКЦИЯ     -->
+      <section class="section_left">
+        <!-- Фото -->
+        <img src="photo.png" alt="AUTHOR" />
+
+        <!-- Имя -->
+        <h1 class="title">Гарри Поттер</h1>
+
+        <!-- Контакты -->
+        <h5 class="sub-title">Контакты:</h5>
+        <ul>
+          <li><i class="fa fa-phone"></i> +0(000)0000000</li>
+          <li><i class="fa fa-telegram"></i> @harry_potter</li>
+          <li><i class="fa fa-envelope"></i> harryp@email.com</li>
+          <li><i class="fa fa-map-marker"></i> Лондон</li>
+        </ul>
+
+        <!-- Образование -->
+        <h5 class="sub-title">Образование:</h5>
+        <em>Бакалавриат</em>
+        <p>Хогвартс (2010)</p>
+        <em>Магистратура</em>
+        <p>Академия Министерства Магии (2012)</p>
+
+        <!-- Владение иностранными языками -->
+        <h5 class="sub-title">Языки</h5>
+        <label>Русский</label>
+        <div class="progress_container">
+          <div class="progress_bar" style="width: 100%"></div>
+        </div>
+        <label>Английский</label>
+        <div class="progress_container">
+          <div class="progress_bar" style="width: 50%"></div>
+        </div>
+        <label>Китайский</label>
+        <div class="progress_container">
+          <div class="progress_bar" style="width: 10%"></div>
+        </div>
+      </section>
+
+      <!-- ПРАВАЯ СЕКЦИЯ -->
+      <section class="section_right">
+        
+        <!-- Профессия -->
+        <h1 class="title QA">QA-инженер</h1>
+
+        <!-- Блок О себе -->
+        <h1 class="title">О себе</h1>
+        <p>
+          Из мальчика который выжил вырос в профессионала который умеет брать на
+          себя ответственности, работать в команде и эффективно действовать в
+          условиях неопределенности
+        </p>
+        <p>
+          Хочу найти спокойную работу, которая не включает в себя борьбу с
+          темными волшебниками или сражение с магическими существами.
+        </p>
+        <p>
+          Обладатель всех трех даров смерти, победил Волан-де-Морта, получил
+          благодарность от мировой общественности. Был капитаном Гриффиндорской
+          команды по квиддичу, обучил более 20 человек защите от темных
+          искусств, победитель турнира Трёх Волшебников, овладел заклинанием
+          «Патронус» в 13 лет, получил специальную награду Хогвартса «За заслуги
+          перед школой» за спасение от василиска, самый молодой ловец за
+          последние 100 лет.
+        </p>
+
+        <!-- Блок Портфолио -->
+        <h1 class="title">Портфолио</h1>
+        <h5>
+          Тест-кейсы - <a target="_blank" href="https://docs.google.com/spreadsheets/d/1h7qxbeID7JgmdwZRA2FXihWAlP5R-zVAeliBA_bb998/edit#gid=1133867377">ссылка на документ</a>
+        </h5>
+        <h5>
+          Чек-листы - <a target="_blank" href="https://docs.google.com/spreadsheets/d/1h7qxbeID7JgmdwZRA2FXihWAlP5R-zVAeliBA_bb998/edit#gid=1133867377">ссылка на документ</a>
+        </h5>
+        <h5>
+          Баг-репорты - <a target="_blank" href="https://docs.google.com/spreadsheets/d/1h7qxbeID7JgmdwZRA2FXihWAlP5R-zVAeliBA_bb998/edit#gid=1133867377">ссылка на документ</a>
+        </h5>
+
+        <!-- Блок Навыки -->
+        <h1 class="title">Навыки</h1>
+        <table>
+          <tr>
+            <td>Защита от темных сил</td>
+            <td>
+              <div class="progress_container">
+                <div class="progress_bar" style="width: 100%"></div>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>Зельеварение</td>
+            <td>
+              <div class="progress_container">
+                <div class="progress_bar" style="width: 20%"></div>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>Полеты</td>
+            <td>
+              <div class="progress_container">
+                <div class="progress_bar" style="width: 90%"></div>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>Нумерология</td>
+            <td>
+              <div class="progress_container">
+                <div class="progress_bar" style="width: 50%"></div>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>Предсказания</td>
+            <td>
+              <div class="progress_container">
+                <div class="progress_bar" style="width: 30%"></div>
+              </div>
+            </td>
+          </tr>
+        </table>
+        <h1 class="title">Курсы</h1>
+        <ul>
+            <li>Интерактивный тренажер SQL 2021 - <a target="_blank" href="https://stepik.org/certificate/ddf645365209337ea0bed0a848959f0e5f8217dd.pdf">Сертификат</a></li>
+            <li>Тестирование ПО 2024 - <a target="_blank" href="https://stepik.org/certificate/a2eb5f02f287ac83244da33cefdcf68d799e13ec.pdf">Сертификат</a></li>
+        </ul>
+
+      </section>
+    </div>
   </body>
 </html>
